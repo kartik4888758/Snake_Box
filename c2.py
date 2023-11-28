@@ -15,7 +15,7 @@ BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
 
-# Snake class (modified)
+
 class Snake:
     def __init__(self):
         self.length = 1
@@ -53,7 +53,7 @@ class Snake:
         for p in self.positions:
             pygame.draw.rect(surface, self.color, (p[0], p[1], GRID_SIZE, GRID_SIZE))
 
-# Ball class
+
 class Ball:
     def __init__(self):
         self.position = (0, 0)
